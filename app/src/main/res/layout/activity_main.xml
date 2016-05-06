@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1d1d1"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edtSeach"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editextsearch"
+        android:padding="10dp"
+
+        android:singleLine="true"
+        android:hint="mot en francais"
+        android:layout_marginTop="5dp"
+
+        />
+
+<TextView
+    android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:text="bell"
+    android:layout_height="wrap_content"></TextView>
+    <ListView
+        android:id="@+id/listview_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:divider="#d1d1d1"
+        android:dividerHeight="10dp"></ListView>
+</LinearLayout>
